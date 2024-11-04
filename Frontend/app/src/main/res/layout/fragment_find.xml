@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FindFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonNewAdvertisementAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Pridať filter">
+
+        </Button>
+
+        <Button
+            android:id="@+id/AdAddAdvertisement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonNewAdvertisementAdd"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="50dp"
+            android:text="Pridať inzerát" />
+
+        <ListView
+            android:id="@+id/advertisementsList"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_below="@+id/AdAddAdvertisement"
+            android:layout_marginTop="1dp"
+            android:minHeight="10dp">
+
+        </ListView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

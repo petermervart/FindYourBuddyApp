@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "503865785480",
+    "project_id": "mtaa-webrtc-48300",
+    "storage_bucket": "mtaa-webrtc-48300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503865785480:android:f215d688db967fbd02f33d",
+        "android_client_info": {
+          "package_name": "com.example.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503865785480-sp1hdmf3lgck0iaq4ai9csfe5n3se6vn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testing",
+            "certificate_hash": "1d006a2b26a83ce2736727d29384179235e6721c"
+          }
+        },
+        {
+          "client_id": "503865785480-a24b5811e42oa2kvau6ur574pq44qeor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgnM65JGYtDLln3SRVcdYm17aCk4nuaW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503865785480-a24b5811e42oa2kvau6ur574pq44qeor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

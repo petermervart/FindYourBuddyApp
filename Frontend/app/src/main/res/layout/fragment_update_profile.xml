@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.UpdateProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/picture_update_show"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/logo_first"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <Button
+            android:id="@+id/uploadPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/picture_update_show"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:width="150dp"
+            android:text="@string/nahra_fotku" />
+
+        <EditText
+            android:id="@+id/update_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/uploadPicture"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#CBD0D4"
+            android:ems="10"
+            android:hint="@string/meno"
+            android:maxLength="35"
+            android:minHeight="48dp"
+            android:textColor="#CBD0D4"
+            android:textColorHint="#CBD0D4"></EditText>
+
+        <EditText
+            android:id="@+id/update_profile_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_profile_name"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#CBD0D4"
+            android:ems="10"
+            android:hint="@string/description"
+            android:maxLength="500"
+            android:maxLines="3"
+            android:minHeight="48dp"
+            android:textColor="#CBD0D4"
+            android:textColorHint="#CBD0D4"></EditText>
+
+        <Button
+            android:id="@+id/updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_profile_description"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:width="110dp"
+            android:text="@string/potvrdi" />
+
+    </RelativeLayout>
+
+</FrameLayout>

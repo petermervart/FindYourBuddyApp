@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ConversationFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/layout_shape"
+            android:layout_width="match_parent"
+            android:layout_marginTop="53dp"
+            android:layout_height="50dp"
+            android:background="@color/purple_200">
+            <TextView
+                android:id="@+id/conversation_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:text="@string/meno"
+                android:textColor="@color/purple_500">
+            </TextView>
+            <Button
+                android:id="@+id/videochat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Videohovor"
+                android:textSize="11sp"
+                android:width="115dp"
+                android:layout_toLeftOf="@id/conversation_name"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true" >
+            </Button>
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/messages_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_shape"
+            android:layout_above="@id/layout_down_shape"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:stackFromBottom="true"></ListView>
+
+        <RelativeLayout
+            android:id="@+id/layout_down_shape"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="50dp"
+            android:background="@color/purple_200">
+            <EditText
+                android:id="@+id/text_message"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="#CBD0D4"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:hint="@string/meno"
+                android:maxLength="600"
+                android:maxLines="5"
+                android:minHeight="35dp"
+                android:textColor="#CBD0D4"
+                android:textColorHint="#CBD0D4"></EditText>
+            <Button
+                android:id="@+id/send_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Odoslať"
+                android:width="70dp"
+                android:textSize="11sp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true" >
+            </Button>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</FrameLayout>

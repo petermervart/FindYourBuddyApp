@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FindFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Spinner
+        android:layout_marginTop="50dp"
+        android:id="@+id/FilterGameToFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+    </Spinner>
+
+    <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/FilterRankToFilter"
+       android:layout_below="@+id/FilterGameToFilter"
+       android:layout_marginTop="16dp">
+
+    </Spinner>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/FilterRankToFilter">
+
+            <Button
+                android:id="@+id/ButtonToDeleteFilter"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:text="Odstrániť filter"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/purple_500"
+                app:cornerRadius="8dp" />
+
+            <Button
+                android:id="@+id/ButtoToAddFilter"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Pridať filter"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/purple_500"
+                app:cornerRadius="8dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

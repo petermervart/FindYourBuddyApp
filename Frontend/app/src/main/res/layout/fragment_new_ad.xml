@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.NewAdFragment">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_marginTop="50dp"
+        android:id="@+id/GameTypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+    </Spinner>
+
+    <Spinner
+        android:layout_marginTop="40dp"
+        android:id="@+id/RankTypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/editTextTextPersonAdvertisement3"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:gravity="top|start"
+        android:padding="10dp"
+        android:hint="Povedz aký si dobrý" />
+
+    <Button
+        android:id="@+id/AddAdvertisement"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Pridať inzerát" />
+
+</LinearLayout>
+</FrameLayout>

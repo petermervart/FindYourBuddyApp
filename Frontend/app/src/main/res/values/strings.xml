@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Find Your Buddy</string>
+    <string name="domov">Domov</string>
+    <string name="chat">Chat</string>
+    <string name="n_jdi_hr_ov">Nájdi hráčov</string>
+    <string name="priatelia">Priatelia</string>
+    <string name="home">Domov</string>
+    <string name="friends">Priatelia</string>
+    <string name="find">Nájdi spoluhráčov</string>
+    <string name="profile">Profil</string>
+    <string name="upravi_profil">Upraviť profil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="meno">Meno</string>
+    <string name="description">Description</string>
+    <string name="potvrdi">Potvrdiť</string>
+    <string name="nahra_fotku">Nahrať fotku</string>
+    <string name="konverzacia">Konverzacia</string>
+    <string name="pref_speakerphone_key">speakerphone_preference</string>
+    <string name="pref_speakerphone_default">auto</string>
+</resources>

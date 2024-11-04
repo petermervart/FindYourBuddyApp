@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/drawable/circle_accept.xml" value="0.3665" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/drawable/circle_background.xml" value="0.3665" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/drawable/circle_deny.xml" value="0.3665" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/drawable/curve_background.xml" value="0.3665" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/drawable/ic_baseline_cameraswitch_24.xml" value="0.3665" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.3665" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/drawable/ic_baseline_profile.xml" value="0.211" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/drawable/message_shape.xml" value="0.3185" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/drawable/message_shape_other.xml" value="0.3185" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/drawable/oval_shape_background.xml" value="0.211" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/activityWebRTC_main.xml" value="0.20364583333333333" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/activityWebRTC_start.xml" value="0.20364583333333333" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/activity_main_webrtc.xml" value="0.20364583333333333" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/activity_register.xml" value="0.20104166666666667" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/activitywebrtc_main.xml" value="0.26927083333333335" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/activitywebrtc_start.xml" value="0.36666666666666664" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/conversation_layout.xml" value="0.25" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_conversation.xml" value="0.33" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_filter.xml" value="0.20104166666666667" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_find.xml" value="0.36666666666666664" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_friend_profile.xml" value="0.20364583333333333" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_friend_requests.xml" value="0.20364583333333333" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_friends.xml" value="0.36666666666666664" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_new_ad.xml" value="0.20104166666666667" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_normal_profile.xml" value="0.20364583333333333" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/fragment_update_profile.xml" value="0.2764612954186414" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/friend_message_layout.xml" value="0.20364583333333333" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/friend_request_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/friend_request_not_owner.xml" value="0.25416666666666665" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/friendship_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/layout/user_message_layout.xml" value="0.20364583333333333" />
+        <entry key="..\:/SEMESTER 6/MTAA/MTAA_FrontEnd/app/src/main/res/menu/menutop.xml" value="0.36666666666666664" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/layout/activity_main.xml" value="0.22554347826086957" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/layout/fragment_chat.xml" value="0.1484375" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/layout/fragment_find.xml" value="0.1484375" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/layout/fragment_friends.xml" value="0.1484375" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/layout/fragment_home.xml" value="0.37109375" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/layout/fragment_profile.xml" value="0.1484375" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/SEMESTER 6/MTAA/Projekt_frontend/Testing/app/src/main/res/menu/menutop.xml" value="0.1484375" />
+        <entry key="..\:/Users/Rasto/AndroidStudioProjects/frontend/MTAA_FrontEnd/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/Rasto/AndroidStudioProjects/frontend/MTAA_FrontEnd/app/src/main/res/layout/fragment_find.xml" value="0.1" />
+        <entry key="..\:/Users/Rasto/AndroidStudioProjects/frontend/MTAA_FrontEnd/app/src/main/res/layout/fragment_home.xml" value="0.35190217391304346" />
+        <entry key="..\:/Users/Rasto/AndroidStudioProjects/frontend/MTAA_FrontEnd/app/src/main/res/layout/fragment_new_ad.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Rasto/AndroidStudioProjects/frontend/MTAA_FrontEnd/app/src/main/res/layout/my_player_layout.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Rasto/AndroidStudioProjects/frontend/MTAA_FrontEnd/app/src/main/res/layout/other_player_layout.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:windowSoftInputMode="adjustResize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/wrapper_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_menu"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:itemTextAppearanceInactive="@color/white"
+        app:menu="@menu/bottom_menu"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/top_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menutop"
+        app:itemHorizontalTranslationEnabled="false"
+        app:labelVisibilityMode="unlabeled"
+        app:itemIconSize="50dp"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:itemTextAppearanceInactive="@color/white"
+        android:background="@color/purple_500"/>
+
+
+</RelativeLayout>

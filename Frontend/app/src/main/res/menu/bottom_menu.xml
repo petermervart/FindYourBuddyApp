@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_baseline_home"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="@string/domov"/>
+
+    <item
+        android:id="@+id/ic_baseline_friends"
+        android:icon="@drawable/ic_baseline_friends"
+        android:title="@string/priatelia"/>
+
+    <item
+        android:id="@+id/ic_baseline_chat"
+        android:icon="@drawable/ic_baseline_chat"
+        android:title="@string/chat"/>
+
+    <item
+        android:id="@+id/ic_baseline_find"
+        android:icon="@drawable/ic_baseline_find"
+        android:title="@string/n_jdi_hr_ov"/>
+
+</menu>

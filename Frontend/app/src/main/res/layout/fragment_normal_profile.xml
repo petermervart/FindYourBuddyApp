@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.NormalProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_picture_normal"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="60dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/logo_first"
+                >
+            </de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                android:id="@+id/profile_name_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/profile_picture_normal"
+                android:layout_centerInParent="true"
+                android:textSize="25sp"
+                android:text="@string/meno"
+                android:textColor="@color/purple_500">
+            </TextView>
+            <Button
+                android:id="@+id/send_friend_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Požiadať o priateľstvo"
+                android:layout_below="@id/profile_name_normal"
+                android:layout_marginStart="10dp"
+                android:width="120dp"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/profile_description_title_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/send_friend_request"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="22sp"
+                android:text="Opis"
+                android:textColor="@color/purple_500">
+            </TextView>
+
+            <TextView
+                android:id="@+id/profile_description_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/oval_shape_background"
+                android:layout_below="@id/profile_description_title_normal"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:text="Opis"
+                android:textColor="@color/purple_500">
+            </TextView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
